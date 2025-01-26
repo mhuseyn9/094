@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Location>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/playlist.mpd</Location><Period id="0" start="0">
-<BaseURL>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/</BaseURL>
-</SegmentTemplate>
-</Representation>
-</AdaptationSet>
-</Period>
-<UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value=""/>
-</MPD>
+#EXTM3U
+#EXTVLCOPT:http-user-agent=WINK/1.28.2 (AndroidTV/9) HlsWinkPlayer
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=128000
+http://185.161.224.211:80/dash/Dunya_TVqsx956_re.ism/playlist.mpd
