@@ -20,7 +20,7 @@
 </AdaptationSet>
 <AdaptationSet lang="eng" contentType="audio">
 <Representation audioSamplingRate="44100" mimeType="audio/mp4" codecs="mp4a.40.2" id="audio/eng" bandwidth="128000">
-<SegmentTemplate timescale="44100" presentationTimeOffset="76640605208521" startNumber="0" media="audio/eng/$Time$.mp4" initialization="audio/eng/6795fa63cff6f94d8e9517e1.mp4">
+<SegmentTemplate timescale="44100" presentationTimeOffset="0" startNumber="0" media="audio/eng/$Time$.mp4" initialization="audio/eng/6795fa63cff6f94d8e9517e1.mp4">
 <SegmentTimeline>
 <S t="76642440214410" d="265216"/>
 <S d="264192"/>
@@ -38,5 +38,5 @@
 </Representation>
 </AdaptationSet>
 </Period>
-<UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2025-01-26T20:38:10.292217Z"/>
+<UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value=""/>
 </MPD>
