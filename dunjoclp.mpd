@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="1970-01-01T00:00:00.000000Z" publishTime="" minimumUpdatePeriod="PT3S" minBufferTime="PT10S" timeShiftBufferDepth="P3DT0H0S">
 <Location>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/playlist.mpd</Location><Period id="0" start="0">
 <BaseURL>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/</BaseURL>
 </SegmentTemplate>
