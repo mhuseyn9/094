@@ -2,38 +2,6 @@
 <MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="1970-01-01T00:00:00.000000Z" publishTime="" minimumUpdatePeriod="PT3S" minBufferTime="PT10S" timeShiftBufferDepth="P3DT0H0S">
 <Location>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/playlist.mpd</Location><Period id="0" start="0">
 <BaseURL>http://185.161.224.211/dash/Dunya_TVqsx956_re.ism/</BaseURL>
-<AdaptationSet contentType="video">
-<Representation width="720" height="576" sar="1:1" mimeType="video/mp4" codecs="avc1.42001F" id="video/bw1600000" bandwidth="1600000">
-<SegmentTemplate timescale="90000" presentationTimeOffset="156409398384736" startNumber="0" media="video/bw1600000/$Time$.mp4" initialization="video/bw1600000/6795fa63cff6f94d8e9517e1.mp4">
-<SegmentTimeline>
-<S t="156413143295537" d="540000" r="12"/>
-</SegmentTimeline>
-</SegmentTemplate>
-</Representation>
-<Representation width="480" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42001F" id="video/bw700000" bandwidth="700000">
-<SegmentTemplate timescale="90000" presentationTimeOffset="156409398384736" startNumber="0" media="video/bw700000/$Time$.mp4" initialization="video/bw700000/6795fa63cff6f94d8e9517e1.mp4">
-<SegmentTimeline>
-<S t="156413143295537" d="540000" r="12"/>
-</SegmentTimeline>
-</SegmentTemplate>
-</Representation>
-</AdaptationSet>
-<AdaptationSet lang="eng" contentType="audio">
-<Representation audioSamplingRate="44100" mimeType="audio/mp4" codecs="mp4a.40.2" id="audio/eng" bandwidth="128000">
-<SegmentTemplate timescale="44100" presentationTimeOffset="0" startNumber="0" media="audio/eng/$Time$.mp4" initialization="audio/eng/6795fa63cff6f94d8e9517e1.mp4">
-<SegmentTimeline>
-<S t="76642440214410" d="265216"/>
-<S d="264192"/>
-<S d="265216"/>
-<S d="264192" r="1"/>
-<S d="265216"/>
-<S d="264192"/>
-<S d="265216"/>
-<S d="264192" r="1"/>
-<S d="265216"/>
-<S d="264192"/>
-<S d="265216"/>
-</SegmentTimeline>
 </SegmentTemplate>
 </Representation>
 </AdaptationSet>
