@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-PLAYLIST-TYPE:event
+#EXT-X-STREAM-INF:BANDWIDTH=1500000
+http://palatv34.ozelip.com:22372/maksimtv/maksimtv/playlist.m3u8
